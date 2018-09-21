@@ -71,5 +71,49 @@ Lembrando que utilizamos uma fonte de terceiros como padrão ([Fira Code](https:
 
 ### Teclas de Atalho
 
+Teclas de atalho padronizadas agilizam quando estamos falando de trabalho em equipe, por isso, definimos algumas teclas de atalho que
+acreditamos ser importantes estarem alinhadas para melhor produtividade enquanto trabalhamos juntos em algum projeto e/ou atividade.
+
+No exemplo abaixo as teclas de atalho estão definidas em um MacBook, caso seu sistema operacional seja **Linux** ou **Windows** troque `cmd` por `ctrl`.
+
+```
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+1",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "cmd+=",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "cmd+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "cmd+d",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+]
+```
+
 ### Snippets
 
