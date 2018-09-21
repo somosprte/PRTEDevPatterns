@@ -30,7 +30,7 @@ desenvolvimento muito mais produtivo.
 
 ### Configurações
 
-Para modificar as configurações do **VS Code** basta clicar no icone ⚙️ **> Settings > ... > Open settings.json ** e substituir o json
+Para modificar as configurações do **VS Code** basta clicar no icone ⚙️ **> Settings > ... > Open settings.json** e substituir o json
 completo.
 
 Lembrando que utilizamos uma fonte de terceiros como padrão ([Fira Code](https://github.com/tonsky/FiraCode)), ela pode ser instalada seguindo este [tutorial](https://github.com/tonsky/FiraCode).
