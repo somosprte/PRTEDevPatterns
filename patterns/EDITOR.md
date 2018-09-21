@@ -1,6 +1,13 @@
 # Editor
 
-## VS Code
+1. [VS Code](#vscode)
+2. [Extensões](#extensions)
+3. [Configurações](#settings)
+4. [Teclas de Atalho](#hotkeys)
+5. [Snippets](#snippets)
+
+
+## VS Code (#vscode)
 
 ![VS Code](https://code.visualstudio.com/assets/home/home-screenshot-mac-lg-2x.png)
 
@@ -9,7 +16,7 @@ desenvolvimento muito mais produtivo.
 
 [Faça o Download](https://code.visualstudio.com/)
 
-### Extensões
+### Extensões (#extensions)
 
 - **Auto Close Tag**: Adiciona automaticamente as tags de fechamento do HTML/XML.
 - **Color Hightlight**: Adiciona um destaque nas chamadas de cores.
@@ -21,12 +28,12 @@ desenvolvimento muito mais produtivo.
 - **Prettier - Code formatter**: Essa extensão realmente aumenta a produtividade, através de um comando ou automaticamente,
   ela formata o código nos padrões configurados, definidos no editor, no _.editorconfig_ e _.eslintrc_
 
-### Configurações
+### Configurações (#settings)
 
-Para modificar as configurações do **VS Code** basta clicar no icone ⚙️ **> Settings > Open settings.json (...)** e substituir o json
+Para modificar as configurações do **VS Code** basta clicar no icone ⚙️ **> Settings > ... > Open settings.json ** e substituir o json
 completo.
 
-Lembrando que utilizamos uma fonte de terceiros como padrão (Fira Code), ela pode ser instalada seguindo este [tutorial](https://github.com/tonsky/FiraCode).
+Lembrando que utilizamos uma fonte de terceiros como padrão ([Fira Code](https://github.com/tonsky/FiraCode)), ela pode ser instalada seguindo este [tutorial](https://github.com/tonsky/FiraCode).
 
 ```
 {
@@ -61,3 +68,8 @@ Lembrando que utilizamos uma fonte de terceiros como padrão (Fira Code), ela po
     "breadcrumbs.enabled": true,
 }
 ```
+
+### Teclas de Atalho (#hotkeys)
+
+### Snippets (#snippets)
+
