@@ -7,7 +7,7 @@
 5. [Snippets](#snippets)
 
 
-## VS Code (#vscode)
+## [](#vscode)VS Code
 
 ![VS Code](https://code.visualstudio.com/assets/home/home-screenshot-mac-lg-2x.png)
 
@@ -16,7 +16,7 @@ desenvolvimento muito mais produtivo.
 
 [Faça o Download](https://code.visualstudio.com/)
 
-### Extensões (#extensions)
+### [](#extensions)Extensões 
 
 - **Auto Close Tag**: Adiciona automaticamente as tags de fechamento do HTML/XML.
 - **Color Hightlight**: Adiciona um destaque nas chamadas de cores.
