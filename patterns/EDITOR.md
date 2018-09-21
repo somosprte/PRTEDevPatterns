@@ -119,4 +119,6 @@ No exemplo abaixo as teclas de atalho estão definidas em um MacBook, caso seu s
 
 ### Snippets
 
-1. [Javascript](snippets/JAVASCRIPT.MD)
+Snippets são palavras chaves que geram um código extenso, com intuito de aumentar a produtividade.
+
+1. [Javascript](snippets/JAVASCRIPT.md)
