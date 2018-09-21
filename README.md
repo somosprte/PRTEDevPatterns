@@ -6,9 +6,9 @@ editores, temas, extensões, teclas de atalhos, etc. será possível criar um am
 de desenvolvimento.
 
 1. [Editor](patterns/EDITOR.md)
-2. Terminal (Tema, Oh My ZSH!)
-3. Controle de Versão
-4. Estruturas
-   1. React
-   2. React Native
-   3. Jekyll
+2. [Terminal](patterns/TERMINAL.md)
+3. [Controle de Versão](patterns/GIT.md)
+4. [Estruturas](patterns/code/README.md)
+   1. [React](patterns/code/REACT.md)
+   2. [React Native](patterns/code/REACTNATIVE.md)
+   3. [Jekyll](patterns/code/JEKYLL.md)
