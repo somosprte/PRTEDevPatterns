@@ -1,5 +1,18 @@
 # Snippets Javascript
 
+## Lista de Snippets
+
+- **statefull**: Cria um componente _statefull_ do React Native.
+- **stateless**: Cria um componente _stateless_ do React Native.
+- **styles**: Cria estrutura de _styles_ default do React Native. (Geralmente utilizada no styles.js)
+- **normalize**: Cria estrutura de _styles_ com normalize do React Native. (Geralmente utilizada no styles.js)
+- **eslint**: Cria as configurações do _eslint_ para React Native.
+- **configureStore**: Cria as configurações da _store_ do _redux_ para React e React Native.
+- **mapState**: Cria constante mapState.
+- **mapActions**: Cria constante mapActions.
+- **duck**: Cria estrutura _duck_ do Redux.
+- **reactotronconfig**: Cria configuração do _Reactotron_ para React e React Native.
+
 Para modificar os snippets de **Javascript** do **VS Code** basta clicar no icone ⚙️ > **User Snippets** > **javascript.json** e substituir o json completo.
 
 ```
@@ -58,26 +71,6 @@ Para modificar os snippets de **Javascript** do **VS Code** basta clicar no icon
     ],
     "description": "Create react-native Style file"
   },
-  "proptypes": {
-    "prefix": "proptypes",
-    "body": ["static propTypes = {", "  ${1}", "};"],
-    "description": "Create component propTypes"
-  },
-  "defaultprops": {
-    "prefix": "defaultprops",
-    "body": ["static defaultProps = {", "  ${1}", "};"],
-    "description": "Create component defaultProps"
-  },
-  "constructor": {
-    "prefix": "ctor",
-    "description": "Create constructor method on Stateful Component",
-    "body": ["constructor(props) {", "  super(props);", "  this.state = {};", "}"]
-  },
-  "render": {
-    "prefix": "render",
-    "body": ["render() {", "  return (", "    ${1:<View />}", "  );", "}"],
-    "description": "Create render method"
-  },
   "eslint": {
     "prefix": "eslint",
     "body": [
@@ -115,28 +108,6 @@ Para modificar os snippets de **Javascript** do **VS Code** basta clicar no icon
     ],
     "description": "Create eslint file config"
   },
-  "reduxSetup": {
-    "prefix": "reduxSetup",
-    "body": [
-      "import { combineReducers } from 'redux';",
-      "",
-      "/* Reducers */",
-      "// import navReducer from 'navigation/reducer';",
-      "",
-      "import configureStore from './configureStore';",
-      "// import rootSaga from './sagas';",
-      "",
-      "export default () => {",
-      "  const rootReducer = combineReducers({",
-      "    // nav: navReducer,",
-      "  });",
-      "",
-      "  return configureStore(rootReducer, rootSaga);",
-      "};",
-      ""
-    ],
-    "description": "Create Redux Setup file"
-  },
   "configureStore": {
     "prefix": "configureStore",
     "body": [
@@ -165,61 +136,6 @@ Para modificar os snippets de **Javascript** do **VS Code** basta clicar no icon
       ""
     ],
     "description": "Create configureStore file"
-  },
-  "reduxComponent": {
-    "prefix": "reduxComponent",
-    "body": [
-      "import React, { Component } from 'react';",
-      "",
-      "import { View } from 'react-native';",
-      "",
-      "import { connect } from 'react-redux';",
-      "",
-      "// import styles from './styles';",
-      "",
-      "class ${1:MyComponent} extends Component {",
-      "  render() {",
-      "    return (",
-      "      <View />",
-      "    );",
-      "  }",
-      "}",
-      "",
-      "const mapStateToProps = state => ({});",
-      "",
-      "const mapDispatchToProps = dispatch => ({});",
-      "",
-      "export default connect(mapStateToProps, mapDispatchToProps)(${1:MyComponent});",
-      ""
-    ],
-    "description": "Create react-native Redux component"
-  },
-  "reduxComponentStateless": {
-    "prefix": "reduxComponentStateless",
-    "body": [
-      "import React from 'react';",
-      "",
-      "import { View } from 'react-native';",
-      "",
-      "import { connect } from 'react-redux';",
-      "",
-      "// import styles from './styles';",
-      "",
-      "const ${1:MyComponent} = () => (",
-      "  <View />",
-      ");",
-      "const mapStateToProps = state => ({",
-      "",
-      "});",
-      "",
-      "const mapDispatchToProps = dispatch => ({",
-      "",
-      "});",
-      "",
-      "export default connect(mapStateToProps, mapDispatchToProps)(${1:MyComponent});",
-      ""
-    ],
-    "description": "Create react-native stateless Redux component"
   },
   "mapState": {
     "prefix": "mapState",
@@ -284,39 +200,6 @@ Para modificar os snippets de **Javascript** do **VS Code** basta clicar no icon
       ""
     ],
     "description": "Create Reactotron Config"
-  },
-  "moduleResolver": {
-    "prefix": "moduleResolver",
-    "body": [
-      "{",
-      "  \"presets\": [\"react-native\"],",
-      "  \"plugins\": [ ",
-      "    [",
-      "      \"module-resolver\",",
-      "      {",
-      "        \"cwd\": \"babelrc\",",
-      "        \"root\": [\"./src\"],",
-      "        \"extensions\": [\".js\", \".ios.js\", \".android.js\"]",
-      "      }",
-      "    ]",
-      "  ]",
-      "}"
-    ],
-    "description": "Create Module Resolver config"
-  },
-  "apisauce": {
-    "prefix": "api",
-    "body": [
-      "import { create } from 'apisauce';",
-      "",
-      "const api = create({",
-      "  baseURL: '${1:http://localhost:3000}',",
-      "});",
-      "",
-      "export default api;",
-      ""
-    ],
-    "description": "Create APISauce Config"
   }
 }
 ```
