@@ -11,13 +11,53 @@ desenvolvimento muito mais produtivo.
 
 ### Extensões
 
-**Auto Close Tag**: Adiciona automaticamente as tags de fechamento do HTML/XML.
-**Color Hightlight**: Adiciona um destaque nas chamadas de cores.
-**Dracula Official**: Tema de cores para o VS Code.
-**EditorConfig for VS Code**: Essa extensão da suporte ao VS Code para interpretar o arquivo *.editorconfig*, que define
-os padrões de desenvolvimento do projeto.
-**ESLint**: Essa extensão da suporte ao VS Code para interpretar os padrões definidos pelo *.eslintrc*.
-**Material Icon Theme**: Adiciona Icones baseado na extensão do documento.
-**Prettier - Code formatter**: Essa extensão realmente aumenta a produtividade, através de um comando ou automaticamente,
-ela formata o código nos padrões configurados, definidos no editor, no *.editorconfig* e *.eslintrc*
+- **Auto Close Tag**: Adiciona automaticamente as tags de fechamento do HTML/XML.
+- **Color Hightlight**: Adiciona um destaque nas chamadas de cores.
+- **Dracula Official**: Tema de cores para o VS Code.
+- **EditorConfig for VS Code**: Essa extensão da suporte ao VS Code para interpretar o arquivo _.editorconfig_, que define
+  os padrões de desenvolvimento do projeto.
+- **ESLint**: Essa extensão da suporte ao VS Code para interpretar os padrões definidos pelo _.eslintrc_.
+- **Material Icon Theme**: Adiciona Icones baseado na extensão do documento.
+- **Prettier - Code formatter**: Essa extensão realmente aumenta a produtividade, através de um comando ou automaticamente,
+  ela formata o código nos padrões configurados, definidos no editor, no _.editorconfig_ e _.eslintrc_
 
+### Configurações
+
+Para modificar as configurações do **VS Code** basta clicar no icone ⚙️ **> Settings > Open settings.json (...)** e substituir o json
+completo.
+
+Lembrando que utilizamos uma fonte de terceiros como padrão (Fira Code), ela pode ser instalada seguindo este [tutorial](https://github.com/tonsky/FiraCode).
+
+```
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 27,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.renderLineHighlight": "none",
+    "editor.minimap.enabled": false,
+
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.shell.osx": "zsh",
+
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "editorBracketMatch.background": "#16a085",
+        "editorBracketMatch.border": "#16a085"
+    },
+    "workbench.sideBar.location": "left",
+
+    "prettier.semi": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.eslintIntegration": true,
+    "prettier.printWidth": 120,
+
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+}
+```
