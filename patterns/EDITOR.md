@@ -1,13 +1,13 @@
 # Editor
 
-1. [VS Code](#vscode)
-2. [Extensões](#extensions)
-3. [Configurações](#settings)
-4. [Teclas de Atalho](#hotkeys)
+1. [VS Code](#vs-code)
+2. [Extensões](#extensões)
+3. [Configurações](#configurações)
+4. [Teclas de Atalho](#teclas-de-atalho)
 5. [Snippets](#snippets)
 
 
-## [](#vscode)VS Code
+## VS Code
 
 ![VS Code](https://code.visualstudio.com/assets/home/home-screenshot-mac-lg-2x.png)
 
@@ -16,7 +16,7 @@ desenvolvimento muito mais produtivo.
 
 [Faça o Download](https://code.visualstudio.com/)
 
-### [](#extensions)Extensões 
+### Extensões 
 
 - **Auto Close Tag**: Adiciona automaticamente as tags de fechamento do HTML/XML.
 - **Color Hightlight**: Adiciona um destaque nas chamadas de cores.
@@ -28,7 +28,7 @@ desenvolvimento muito mais produtivo.
 - **Prettier - Code formatter**: Essa extensão realmente aumenta a produtividade, através de um comando ou automaticamente,
   ela formata o código nos padrões configurados, definidos no editor, no _.editorconfig_ e _.eslintrc_
 
-### Configurações (#settings)
+### Configurações
 
 Para modificar as configurações do **VS Code** basta clicar no icone ⚙️ **> Settings > ... > Open settings.json ** e substituir o json
 completo.
@@ -69,7 +69,7 @@ Lembrando que utilizamos uma fonte de terceiros como padrão ([Fira Code](https:
 }
 ```
 
-### Teclas de Atalho (#hotkeys)
+### Teclas de Atalho
 
-### Snippets (#snippets)
+### Snippets
 
