@@ -18,3 +18,4 @@ de desenvolvimento.
    1. [React](patterns/code/REACT.md)
    2. [React Native](patterns/code/REACTNATIVE.md)
    3. [Jekyll](patterns/code/JEKYLL.md)
+5. [Design Elements](patterns/DesignElements.md)
