@@ -1,3 +1,9 @@
+## English Version
+
+- [ ] todo
+
+## Portuguese Version
+
 Com o intuito de facilitar a interação entre os colaboradores a PRTE definiu alguns padrões
 a serem utilizados pelos desenvolvedores.
 
