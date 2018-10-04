@@ -13,7 +13,7 @@ Utilize o tema: [**AMUSE**](https://github.com/robbyrussell/oh-my-zsh/wiki/theme
 
 ![Tema AMUSE OH MY ZSH](https://cloud.githubusercontent.com/assets/2618447/6316861/70f3c4ce-ba03-11e4-88a5-0b423dd5a2ce.png)
 
-## Tema
+## MacOs Terminal Theme
 
 Com intuito de padronizar o tema do editor e do terminal, configure o Dracula Theme como tema do seu terminal.
 
